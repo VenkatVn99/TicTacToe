@@ -1,0 +1,84 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #ffecd1;
+  /* background-image: url("tic-tac-toe-bg.jpeg");
+  background-size: cover; */
+}
+h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #432818;
+}
+.container {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f5f3f4; */
+}
+
+.winner-message-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.game-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  height: 260px;
+  width: 260px;
+}
+.box {
+  background-color: #6f1d1b;
+  height: 70px;
+  width: 70px;
+  border-radius: 5px;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  border: none;
+  font-size: 2.5rem;
+  color: #ffecd1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#reset-button {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #432818;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+  margin-top: 50px;
+  color: #ffecd1;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#new-game-button {
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #432818;
+  color: #ffecd1;
+  border-radius: 1rem;
+  border: none;
+  margin-top: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#winner-msg {
+  font-size: 2rem;
+  color: #432818;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.hide {
+  display: none;
+}
